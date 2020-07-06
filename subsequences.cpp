@@ -12,7 +12,7 @@ void subsequence(char in[], char out[], int i, int j)
 	}
 	//Including in[i]
 	out[j]=in[i];
-	subsequence(in, out, i+1, j+1);
+	subsequence(in, out, i+1, j+1); 
 	//Excluding in[i]
 	out[j]='\0';
 	subsequence(in, out, i+1, j);
@@ -20,7 +20,7 @@ void subsequence(char in[], char out[], int i, int j)
 
 int main()
 {
-	char in[100]="abc";
-	char out[100];
+	char in[100]="abc"; //Input
+	char out[100]; //Output string
 	subsequence(in, out, 0, 0);
 }
