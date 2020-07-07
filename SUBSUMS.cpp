@@ -1,3 +1,7 @@
+/*
+Problem Link :
+https://www.spoj.com/problems/SUBSUMS/
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
